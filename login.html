@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - ClShop</title>
+    <!-- Fichier bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+            <!-- Debut en tete -->
+            <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">CLSHOP</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">ACCUEIL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="a propos.html">A PROPOS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    BOUTIQUE
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="telephone.html">Téléphone</a></li>
+                                    <li><a class="dropdown-item" href="ordinateur.html">Ordinateur</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="electromenageur.html">Electromenagers</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="register.html">INSCRIPTION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="login.html">CONNEXION</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Chercher</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- Fin en tete -->
+
+            <!-- Debut section formulaire -->
+            <div class="mx-auto bg-light p-4" style="width: 500px; box-shadow: black 1px 5px 8px 2px; margin-top: 100px;">
+                <h1>Connexion</h1>
+                <form action="">
+                    <div class="mb-3 mt-3">
+                        <label class="form-label" for="">Email</label>
+                        <input class="form-control" type="text" placeholder="Saisir votre adresse email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label"  for="">Mot de posse</label>
+                        <input class="form-control" type="password" placeholder="Saisir votre mot de passe">
+                    </div>
+                    <p>
+                        <a href="reset-password.html">Mot de passe oublier</a>
+                    </p>
+                    <div class="mb-3">
+                        <input class="btn btn-primary form-control" type="submit" value="Se connecter">
+                    </div>
+                    <p>
+                        Vous n'avez pas de Compte ?
+                        <a href="register.html">S'inscrire</a>
+                    </p>
+                </form>
+            </div>
+            <!-- Fin section formulaire -->
+    </div>
+</body>
+</html>
